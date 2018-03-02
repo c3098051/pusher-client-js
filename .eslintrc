@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "plugins": [],
+  "extends": ["eslint:recommended", "airbnb"],
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "no-use-before-define": 0
+  },
+  "settings": {}
+}
+  
